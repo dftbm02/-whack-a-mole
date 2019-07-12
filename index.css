@@ -1,0 +1,28 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: url("./media/bg4.jpg") no-repeat center;
+    background-size: cover;
+    /* cover是一定充满整个盒子,但是contain是一定显示整张图片 */
+}
+#data {
+    font-size: 16px;
+    margin:30px auto;
+    text-align: center;
+    font-weight: 700;
+
+}
+#mouse_hole {
+    margin:0 auto;
+    /* border-collapse: collapse;
+    border */
+}
+#mouse_hole td{
+    width: 100px;
+    height: 100px;
+    background: url("./media/overBg.png") no-repeat center/cover;
+    /* 用center/cover就可以让整张图片撑满真个盒子了 */
+    text-align: center;
+}
